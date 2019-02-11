@@ -54,4 +54,3 @@ The "open_movies_page" function takes a list of movies, then creates and opens
 an html webpage or website that shows those (given) movies"""
 movies = [titanic, aquaman, frozen, avengers, taken, annabelle]
 fresh_tomatoes.open_movies_page(movies)
-
