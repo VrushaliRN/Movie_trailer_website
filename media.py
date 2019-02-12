@@ -13,7 +13,7 @@ class Movie:
         self.title = the_movie_title
         self.storyline = movie_storyline
         self.image_poster_url = image_poster
-    self.trailer_youtube_url = youtube_trailer
+        self.trailer_youtube_url = youtube_trailer
 
     # instance method is here:
     def show_trailer(self):
