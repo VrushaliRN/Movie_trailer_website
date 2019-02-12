@@ -9,10 +9,10 @@ class Movie:
     # "selfmade" is the object being created
     def __init__(self, the_movie_title,
                  movie_storyline, image_poster,
-                 youtube_trailer)
-    self.title = the_movie_title
-    self.storyline = movie_storyline
-    self.image_poster_url = image_poster
+                 youtube_trailer):
+        self.title = the_movie_title
+        self.storyline = movie_storyline
+        self.image_poster_url = image_poster
     self.trailer_youtube_url = youtube_trailer
 
     # instance method is here:
